@@ -7,13 +7,13 @@
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
 
-AESD_ASSIGNMENTS_VERSION = 'd0d0d6c4205bf823ae24bea7414bd9dee59a69ef'
+AESD_CHARDRIVER_VERSION = 'd0d0d6c4205bf823ae24bea7414bd9dee59a69ef'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
-AESD_ASSIGNMENTS_SITE = 'git@github.com:cu-ecen-aeld/assignments-3-and-later-sachininja.git'
-AESD_ASSIGNMENTS_SITE_METHOD = git
-AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
+AESD_CHARDRIVER_SITE = 'git@github.com:cu-ecen-aeld/assignments-3-and-later-sachininja.git'
+AESD_CHARDRIVER_SITE_METHOD = git
+AESD_CHARDRIVER_GIT_SUBMODULES = YES
 
 
 AESD_CHARDRIVER_MODULE_SUBDIRS += aesd-char-driver/
