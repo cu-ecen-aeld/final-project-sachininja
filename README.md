@@ -1,5 +1,9 @@
-# buildroot-rpi
 
+https://github.com/sachininja/final-project-SachinMathad/wiki/Project-Overview
+
+
+# buildroot-rpi
+## Sprint 1
 This repository contains assignment starter code for buildroot based assignments for the course Advanced Embedded Software Design, ECEN 5713
 
 We will be using rpi3
@@ -27,3 +31,4 @@ For model 3 B and B+:
 For model 4 B:
 
   $ make raspberrypi4_defconfig
+=======
