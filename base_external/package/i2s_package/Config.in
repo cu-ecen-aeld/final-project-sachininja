@@ -1,0 +1,5 @@
+
+config BR2_PACKAGE_I2S_PACKAGE
+	bool "i2s-package"
+	help
+	  Includes the related conf files required for i2s bring up on buildroot.
