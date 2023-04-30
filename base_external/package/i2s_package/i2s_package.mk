@@ -6,7 +6,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-I2S_PACKAGE_VERSION = '825b62794fa4f485be4404540660a84aae2f4643'
+I2S_PACKAGE_VERSION = '26e0c2c89cd580e98bffb3ac4372d30cd67692bf'
 
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
@@ -16,7 +16,10 @@ I2S_PACKAGE_SITE_METHOD = git
 I2S_PACKAGE_GIT_SUBMODULES = YES
 
 define I2S_PACKAGE_INSTALL_TARGET_CMDS
-	$(INSTALL) -m 0755 $(@D)/asound.conf $(TARGET_DIR)/etc/
-	$(INSTALL) -m 0755 $(@D)/working_john.wav $(TARGET_DIR)/usr/share/sounds/alsa/
+        $(INSTALL) -m 0755 $(@D)/test1.wav $(TARGET_DIR)/usr/bin
+	$(INSTALL) -m 0755 $(@D)/test2.wav $(TARGET_DIR)/usr/bin
+	$(INSTALL) -m 0755 $(@D)/test3.wav $(TARGET_DIR)/usr/bin
+	$(INSTALL) -m 0755 $(@D)/test4.wav $(TARGET_DIR)/usr/bin
+        $(INSTALL) -m 0755 $(@D)/i2s_sequencer.py $(TARGET_DIR)/usr/bin
 endef
 $(eval $(generic-package))
