@@ -1,0 +1,5 @@
+
+config BR2_PACKAGE_AUDIOBT_PACKAGE
+	bool "audiobt-package"
+	help
+	  Includes the related conf files required for audio bluetooth bring up on buildroot.
