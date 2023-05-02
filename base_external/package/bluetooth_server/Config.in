@@ -1,5 +1,5 @@
 
-config BR2_PACKAGE_AUDIOBT_PACKAGE
-	bool "audiobt-package"
+config BR2_PACKAGE_BLUETOOTH_SERVER
+	bool "bluetooth_server"
 	help
-	  Includes the related conf files required for audio bluetooth bring up on buildroot.
+	  Includes the related conf files required for bluetooth server bring up on buildroot.
