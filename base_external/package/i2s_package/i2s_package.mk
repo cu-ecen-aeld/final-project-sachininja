@@ -1,12 +1,12 @@
 
 ##############################################################
 #
-# AESD-ASSIGNMENTS
+# I2S_PACKAGE
 #
 ##############################################################
 
-#TODO: Fill up the contents below in order to reference your assignment 3 git contents
-I2S_PACKAGE_VERSION = '26e0c2c89cd580e98bffb3ac4372d30cd67692bf'
+#TODO: Fill up the contents below in order to reference i2s database
+I2S_PACKAGE_VERSION = 'ba750713602c17231a1b4bac477fcaecfdb70522'
 
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
