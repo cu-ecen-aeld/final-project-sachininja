@@ -1,0 +1,3 @@
+dtparam=i2s=on 			# Enables support for the Inter-IC Sound (I2S) protocol on RPI Hardware
+dtoverlay=hifiberry-dac		# Loads the device tree overlay for the HiFiBerry DAC
+dtoverlay=i2s-mmap		# Loads the device tree overlay for I2S memory-mapped mode

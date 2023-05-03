@@ -8,9 +8,6 @@ case "$1" in
 	hciconfig hci0 up
 	echo "To run as server, following commands are run to set as low energy, make the device connectable, and then advertise"
 	echo "Remove below commands if not intended to use as server"
-	#/usr/bin/btmgmt -i hci0 le on
-	#/usr/bin/btmgmt -i hci0 connectable on
-	#/usr/bin/btmgmt -i hci0 advertising on
 
     ;;
     stop)

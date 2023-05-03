@@ -6,7 +6,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference bluetooth server pacakages
-BLUETOOTH_SERVER_VERSION = '003b8ec33d9286394494a2aae8d7903d3bac348a'
+BLUETOOTH_SERVER_VERSION = 'f36f117ce7401120fa0d18f55b85454cc41e68ef'
 
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
